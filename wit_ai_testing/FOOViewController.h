@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FOOViewController : UIViewController
-
+@interface FOOViewController : UIViewController <WitDelegate>
+{
+    NSString *labelView;
+}
 @end
+
